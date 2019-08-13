@@ -14,9 +14,6 @@ void PerformServerTask( int newSocketDescriptor, int s_addr){
 		time_t t;
 		n = write(newSocketDescriptor,ctime(&t),sizeof(buf));
 
-	
-		
-
 }
 int CreateServerSocket(){
 	int SocketDescriptor,newSocketDescriptor,PortNo;
